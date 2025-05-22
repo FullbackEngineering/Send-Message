@@ -1,4 +1,5 @@
-﻿body {
+﻿/* General body styling */
+body {
     font-family: Arial, sans-serif;
     background-color: #f0f2f5;
     color: #333;
@@ -6,17 +7,20 @@
     padding: 60px 20px;
 }
 
+/* Page heading */
 h2 {
     color: #2c3e50;
     margin-bottom: 10px;
 }
 
+/* Description text under heading */
 p.description {
     color: #555;
     font-size: 16px;
     margin-bottom: 40px;
 }
 
+/* Container for the homepage buttons */
 .button-container {
     display: flex;
     justify-content: center;
@@ -24,6 +28,7 @@ p.description {
     margin-top: 30px;
 }
 
+/* Style for buttons and back link */
 .menu-button, .back-link {
     background-color: #3498db;
     color: white;
@@ -34,10 +39,12 @@ p.description {
     display: inline-block;
 }
 
+    /* Hover effect for buttons */
     .menu-button:hover, .back-link:hover {
         background-color: #2980b9;
     }
 
+/* Styling for form layout */
 .form-container {
     max-width: 400px;
     margin: auto;
@@ -46,6 +53,7 @@ p.description {
     gap: 15px;
 }
 
+    /* Input and textarea styling */
     .form-container input[type="text"],
     .form-container input[type="email"],
     .form-container textarea {
@@ -55,6 +63,7 @@ p.description {
         border-radius: 5px;
     }
 
+    /* Submit button styling */
     .form-container input[type="submit"] {
         background-color: #3498db;
         color: white;
@@ -65,10 +74,12 @@ p.description {
         cursor: pointer;
     }
 
+        /* Hover effect for submit button */
         .form-container input[type="submit"]:hover {
             background-color: #2980b9;
         }
 
+/* Message display box */
 .mesaj-kutusu {
     max-width: 600px;
     margin: 20px auto;
@@ -79,6 +90,7 @@ p.description {
     text-align: left;
 }
 
+/* Success message text */
 .success-msg {
     color: green;
     font-weight: bold;
